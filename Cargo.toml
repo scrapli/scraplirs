@@ -1,0 +1,30 @@
+[package]
+name = "scraplirs"
+description = "scrapli|scrapligo, but in rust!"
+version = "0.0.1"
+repository = "https://github.com/scrapli/scraplirs"
+readme = "README.md"
+license = "MIT"
+keywords = [
+  "netconf",
+  "ssh",
+  "telnet",
+]
+authors = ["Carl Montanari <carl.r.montanari@gmail.com>"]
+edition = "2021"
+categories = [
+    "network-programming"
+]
+
+[dependencies]
+chrono = { version = "0.4.26", default-features = false, features = ["clock"] }
+env_logger = { version = "0.10.0" }
+errno = { version = "0.3.2" }
+log = { version = "0.4.20" }
+nix = { version = "0.25.1" }
+once_cell = { version = "1.18.0" }
+regex = { version = "1.9.3" }
+serde = { version = "1.0.188", features = ["derive"] }
+serde_yaml = "0.9.25"
+thiserror = { version = "1.0.47" }
+

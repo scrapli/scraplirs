@@ -1,0 +1,4 @@
+max_width = 100
+use_field_init_shorthand = false
+fn_params_layout = "Vertical"
+imports_layout = "Vertical"
